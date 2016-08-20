@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+  		<div class="jumbotron">
+    		<h1>RPG</h1>
+  		</div>
+  		<div class="row">
+  			<div class="col-md-2 you"></div>
+  			<div class="col-md-8 errythang">
+          <h1> Your Character </h1>
+  				<button type="button" class="btn btn-outline-primary character" data-health="120" data-damage="8" id="obi">Yoda
+  					<img src="assets/images/yodaresize.jpg" class="img-responsive">
+            <h5>120</h5>
+  				</button>
+  				<button type="button" class="btn btn-outline-primary character" data-health="100" data-damage="5" id="luke">Luke Skywalker
+  					<img src="assets/images/luke.jpg" class="img-responsive"><h5>100</h5>
+  				</button>
+  				<button type="button" class="btn btn-outline-primary character" data-health="180" data-damage="25" id="maul">Vader
+  					<img src="assets/images/vader.jpg" class="img-responsive"><h5>180</h5>
+  				</button>
+  				<button type="button" class="btn btn-outline-primary character" data-health="150" data-damage="20" id="sidious">Maul
+            <img src="assets/images/maul.jpg" class="img-responsive">
+  					<h5>150</h5>
+  				</button>
+  			</div>
+  			<div class="col-md-2 ring"></div>
+  		</div>
+  		<div class="row">
+  			<div class="col-md-10 rbBig">
+          <p id="yourattack"></p>
+          <p id="enemyattack"> </p>
+        </div>
+  			<div class="col-md-2 rbSmall"><button type="button" class="btn btn-outline-primary attack" id="attack">ATTACK</button>
+        <button type="button" class="btn btn-secondary reset">Reset</button>
+  			</div>
+  		</div>
+</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

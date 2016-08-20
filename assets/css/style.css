@@ -1,0 +1,19 @@
+
+
+.character {width:165px; height:265px; opacity:0.85;}
+
+.jumbotron {height:150px; mix-blend-mode: difference;}
+
+.rbBig {text-align:center; margin-top:10px;}
+ 
+ #yourattack, #enemyattack{color:white; font-style:italic;}
+ 
+ .ring, .you {height:300px;}
+
+.errythang {text-align:center;}
+
+body {
+    background-image: url("../images/background2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
